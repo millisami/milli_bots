@@ -1,0 +1,31 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    chatterbot (0.4.0)
+      twitter_oauth
+    coderay (0.9.8)
+    json (1.6.3)
+    method_source (0.6.7)
+      ruby_parser (>= 2.3.1)
+    mime-types (1.17.2)
+    oauth (0.4.5)
+    pry (0.9.7.4)
+      coderay (~> 0.9.8)
+      method_source (~> 0.6.7)
+      ruby_parser (>= 2.3.1)
+      slop (~> 2.1.0)
+    ruby_parser (2.3.1)
+      sexp_processor (~> 3.0)
+    sexp_processor (3.0.9)
+    slop (2.1.0)
+    twitter_oauth (0.4.3)
+      json (>= 1.1.9)
+      mime-types (>= 1.16)
+      oauth (>= 0.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  chatterbot
+  pry
