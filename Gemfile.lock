@@ -49,3 +49,5 @@ DEPENDENCIES
   chatterbot!
   millibot!
   pry
+  sequel
+  sqlite3
