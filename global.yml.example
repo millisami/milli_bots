@@ -1,0 +1,4 @@
+---
+:consumer_secret: your_secrect
+:consumer_key: your_key
+:db_uri: sqlite://millibots.db
