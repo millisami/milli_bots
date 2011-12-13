@@ -1,5 +1,5 @@
 source :rubygems
-gem 'chatterbot'
+gem 'chatterbot', :path => "~/gitcodes/chatterbot"
 gem 'pry'
 gem 'sequel'
 gem 'sqlite3'

@@ -18,17 +18,19 @@ loop do
     # here you could do something with a tweet
     $stdout.puts tweet.inspect
     # binding.pry
+    
+    retweet(tweet[:id])
   end
   
   # puts "checking for replies to me"
   # replies do |tweet|
   #   # replace the incoming username with the handle of the user who tweeted us
-  #   # src = tweet[:text].gsub(/@echoes_bot/, tweet_user(tweet))
+  #   src = tweet[:text].gsub(/@echoes_bot/, tweet_user(tweet))
   # 
   #   # replace the incoming username with #USER#, which will be replaced
   #   # with the handle of the user who tweeted us by the
   #   # replace_variables helper
-  #   src = tweet[:text].gsub(/@echoes_bot/, "#USER#")  
+  #   # src = tweet[:text].gsub(/@echoes_bot/, "#USER#")  
   # 
   #   # send it back!
   #   reply src, tweet
@@ -36,7 +38,7 @@ loop do
 
   # explicitly update our config
   update_config
-  sleep 10
+  sleep 5
 end
 
 

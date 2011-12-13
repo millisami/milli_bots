@@ -1,8 +1,12 @@
-GEM
-  remote: http://rubygems.org/
+PATH
+  remote: ~/gitcodes/chatterbot
   specs:
     chatterbot (0.4.0)
       twitter_oauth
+
+GEM
+  remote: http://rubygems.org/
+  specs:
     coderay (0.9.8)
     json (1.6.3)
     method_source (0.6.7)
@@ -29,7 +33,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  chatterbot
+  chatterbot!
   pry
   sequel
   sqlite3
