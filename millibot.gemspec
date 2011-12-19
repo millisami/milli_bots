@@ -22,6 +22,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'foreverb', '~>0.2.6'
   s.add_dependency 'sequel'
   s.add_dependency 'sqlite3'
-  
-  s.add_development_dependency 'pry'
+  s.add_dependency 'sinatra'
+  s.add_dependency 'slim'
 end
